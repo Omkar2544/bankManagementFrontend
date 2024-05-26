@@ -1,0 +1,23 @@
+
+<div class="kuchbhi">
+    <div  class="button-group">
+    <button id="btn2" (click)="logout()">Logout</button>
+    </div>
+</div>
+
+
+<div class="body">
+<div class="withdraw-container">
+    
+            
+        
+<div class="button-group">
+<button id="btn2" (click)="getBalance()">Get Balance</button>
+</div>
+<h3>{{dataToShow}}</h3>
+<div class="button-group">
+<button id="btn2" routerLink="/dashboard">Transfer the funds</button>
+</div>
+<router-outlet></router-outlet>
+</div>
+</div>

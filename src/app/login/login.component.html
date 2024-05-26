@@ -1,0 +1,12 @@
+<div class="body">
+<div class="withdraw-container">
+    <label>Enter user name</label>
+    <input type="text" name="uname" [(ngModel)]="userId">
+    <label>Password</label>
+    <input type="password" name="password" [(ngModel)]="password">
+    <div class="button-group">
+    <button id="btn2" (click)="loginUser()">Password</button>
+    </div>
+</div>
+</div>
+<h3>{{userShow}}</h3>
